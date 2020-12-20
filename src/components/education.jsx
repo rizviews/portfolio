@@ -1,44 +1,46 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptop } from '@fortawesome/free-solid-svg-icons';
 
 class Education extends React.Component {
     render () {
         return (
-            <section id="education" class="parallax-section">
-                <div class="container">
-                    <div class="row">
+            <section id="education" className="parallax-section">
+                <div className="container">
+                    <div className="row">
 
-                        <div class="col-md-6 col-sm-6">
-                                <div class="color-white education-thumb">
-                                    <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                        <div className="col-md-6 col-sm-6">
+                                <div className="color-white education-thumb">
+                                    <div className="wow fadeInUp section-title" data-wow-delay="0.8s">
                                         <h1>Education/Training</h1>                              
                                     </div>
 
-                                    <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
-                                        <div class="media-object media-left">
-                                            <i class="fa fa-laptop"></i>
+                                    <div className="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                                        <div className="media-object media-left">
+                                            <FontAwesomeIcon icon={faLaptop} color="white" size="2x" /> 
                                         </div>
-                                        <div class="media-body">
-                                            <h3 class="media-heading">Bachelor in Science <small>2002 - 2006</small></h3>
-                                            <p class="color-white">Computer Science</p>
-                                            <p class="color-white">American International University - Bangladesh (AIUB)</p>
+                                        <div className="media-body">
+                                            <h3 className="media-heading">Bachelor in Science <small>2002 - 2006</small></h3>
+                                            <p className="color-white">Computer Science</p>
+                                            <p className="color-white">American International University - Bangladesh (AIUB)</p>
                                         </div>                              
                                     </div>
 
-                                    <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
-                                        <div class="media-object media-left">
-                                            <i class="fa fa-laptop"></i>
+                                    <div className="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                                        <div className="media-object media-left">
+                                            <FontAwesomeIcon icon={faLaptop} color="white" size="2x" /> 
                                         </div>
-                                        <div class="media-body">
-                                            <h3 class="media-heading">Microsoft Certified Developer (MCPD)</h3>
+                                        <div className="media-body">
+                                            <h3 className="media-heading">Microsoft Certified Developer (MCPD)</h3>
                                             
                                         </div>                            
                                     </div>
-                                    <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
-                                        <div class="media-object media-left">
-                                            <i class="fa fa-laptop"></i>
+                                    <div className="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                                        <div className="media-object media-left">
+                                            <FontAwesomeIcon icon={faLaptop} color="white" size="2x" /> 
                                         </div>
-                                        <div class="media-body">
-                                            <h3 class="media-heading">ISTQB (Foundation)</h3>
+                                        <div className="media-body">
+                                            <h3 className="media-heading">ISTQB (Foundation)</h3>
                                             
                                         </div>                            
                                     </div>
@@ -46,8 +48,8 @@ class Education extends React.Component {
                                 </div>
                         </div>
 
-                        <div class="col-md-6 col-sm-6">
-                                <div class="background-image education-img"></div>
+                        <div className="col-md-6 col-sm-6">
+                                <div className="background-image education-img"></div>
                         </div>
 
                     </div>
